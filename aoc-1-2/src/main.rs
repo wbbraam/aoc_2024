@@ -21,6 +21,9 @@ fn count_occurrences(list: &Vec<i32>, value: i32) -> i32 {
             count = count + 1;
         }
     }
+    if count > 0 {
+        println!("{} occurs {} times", value, count);
+    }
     return count;
 }
 
@@ -33,7 +36,7 @@ fn main() {
 
     //Preprocessing, parsing the lines into two lists
     for line in all_lines {
-        println!("{:?}", line);
+        //println!("{:?}", line);
         //split line into two strings
         let mut split = line.split("   "); //There has to be a better way!
         let first = split.next().unwrap();

@@ -20,7 +20,7 @@ fn charcters_from_file(filename: impl AsRef<Path>) -> Vec<Vec<char>> {
         .collect()
 }
 
-
+// Function that tests for the X-MAS pattern
  fn test_cross(lines: Vec<Vec<char>>, linenumber: i32, charnumber: i32) -> i32 {
     let linepointer = linenumber as usize;
     let charpointer = charnumber as usize;
