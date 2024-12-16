@@ -166,7 +166,7 @@ fn main() {
     }
     println!("Nodes: {}", nodes.len());
     println!("Edges: {}", edges.len());
-    return;
+    //return;
 
     // So Dijkstra... we need a vector of distances and a vector of visited nodes
     let mut distances: Vec<i32> = vec![i32::MAX; nodes.len()];
