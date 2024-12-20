@@ -1,0 +1,8 @@
+[package]
+name = "aoc-20-2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cached = "0.27.0"
+regex = "1.11.1"
